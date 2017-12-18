@@ -1,0 +1,16 @@
+{
+  "name": "gitbook-plugin-broken-links",
+  "version": "0.0.0",
+  "description": "A Gitbook plugin to report broken links",
+  "main": "index.js",
+  "repository": "https://github.com/jwarby/gitbook-plugin-broken-links",
+  "author": "James Warwood <warwood.aj@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
