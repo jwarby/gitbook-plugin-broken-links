@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-broken-links",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Gitbook plugin to report broken links",
   "main": "index.js",
   "repository": "https://github.com/jwarby/gitbook-plugin-broken-links",
