@@ -18,7 +18,7 @@ module.exports = {
         .not('[href=]')
 
       const hrefs = userLinks.map((i, link) => (
-        $(link).attr('href').replace(/.html(#.*)*$/, '.md')
+        $(link).attr('href').replace(/.html(.*)*$/, '.md')
       )).get()
 
       const state = hrefs.map(href => {
